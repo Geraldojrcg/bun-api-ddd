@@ -1,6 +1,6 @@
 import { v4 as uuid } from "uuid";
 import { PetGender } from "../enuns/pet-gender.enum";
-import { entityToJson } from "../../utils/entity-to-json";
+import { entityToJson } from "entity-to-json";
 
 export type PetProps = {
   id?: string;
